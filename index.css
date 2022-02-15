@@ -1,0 +1,17 @@
+#container{
+    font-family: houschka-pro, sans-serif;
+    font-style:italic;
+    color: rgb(41, 41, 220);
+    text-align: center;
+    position:relative;
+    overflow: auto;
+}
+html{
+        cursor: url(image/cursor.png), default;
+        height:100%;   
+        background-color: #28ff68;
+}
+a{
+        cursor: url(image/pointer.png), pointer; 
+        height:100%;   
+}
