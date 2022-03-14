@@ -16,17 +16,6 @@ html{
         background-color: #0e0d57;
 }
 a{
-        cursor: url(image/pointer.png), pointer; 
+        cursor: url(image/cursor.png), pointer; 
         height:50%;   
-}
-
-#room {
-    position:relative;
-    /*background-size: cover;*/
-    /*background-color: white;*/
-    width: 45%;
-    height: 45%;
-    align-content: center;
-    align-items: center;
-    /* align-items:flex-end; */
 }
