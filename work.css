@@ -13,7 +13,7 @@
         box-sizing: border-box;
 }
 body {
-        background-color: rgb(253, 235, 235);
+        background-color:#0e0d57;
         height: 100vh;
         display:flex;
         justify-content: center;
@@ -61,20 +61,28 @@ body {
 #front{
         z-index: 1;
         backface-visibility: hidden;
-        border-left: 2px solid rgb(253, 235, 235);
+        border-left: 4px solid  #0e0d57;
 }
 #back{
         z-index: 0;
 }
 #p1{
-        z-index: 3;
+        z-index: 5;
 }
 #p2{
-        z-index: 2;
+        z-index: 4;
 }
 #p3{
+        z-index: 3;
+}
+#p4{
+        z-index: 2;
+}
+
+#p5{
         z-index: 1;
 }
+
 
 /*paper flipped*/
 .flipped #front,
