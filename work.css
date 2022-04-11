@@ -21,14 +21,15 @@ body {
 
         font-family: "Ubuntu", sans-serif;
         font-style: Bold 700 italic;
-       /* background-image: url("image/unreadMsg.png");/*background-color: #0e0d57;*/
-        /* Full height 
-        height: 100%;
+       /* background-image: url("image/unreadMsg.png"); */
+       /* background-color: #0e0d57; */
+        /* Full height  */
+        /* height: 100%; */
         
-        /* Center and scale the image nicely 
-        background-position: center;
+        
+        /* background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;*/
+        background-size: cover; */
         
 }
 #book{
@@ -117,6 +118,7 @@ button:focus {
 
 html{
         cursor: url(image/c1.png), default;
+        transition: transfrom 3.5s;
 }
 a{
         cursor: url(image/pointer.png), pointer; 
