@@ -4,8 +4,11 @@ body{
     background: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
+a:link {
+  text-decoration:none;
+}
 a:hover {
-  text-decoration: underline;
+  text-decoration:dashed;
 }
 
 .eyes{
@@ -62,13 +65,14 @@ a:hover {
 }
 .c1p{
   
-    top:180px;
+    top:170px;
     position:absolute;
 
-    left:170px;
+    left:168px;
 }
-.c1 h5 span{
+.c1 span{
     position: absolute;
+    font-style: SemiBold 600 ;
     display: inline-block;
     text-transform: uppercase;
     top:-100px;

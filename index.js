@@ -1,5 +1,5 @@
 var ball = document.querySelector(".ball");
-const c1 = document.querySelector(".c1 h5");
+const c1 = document.querySelector(".c1");
 
 
 c1.innerHTML = c1.textContent.replace(/\S/g,
