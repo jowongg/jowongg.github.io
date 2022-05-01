@@ -6,9 +6,15 @@ body{
 }
 a:link {
   text-decoration:none;
+  color:black;
 }
 a:hover {
-  text-decoration:dashed;
+  text-decoration:line-through;
+  color:black;
+  cursor: pointer;
+}
+a:visited{
+    color:black;
 }
 
 .eyes{
@@ -53,22 +59,28 @@ a:hover {
     line-height: 210px;
     margin:0px;
     padding-top: -90px;
+    user-select: none;
+
 }
+
 .c1 {
     position:absolute;
     font-style: SemiBold 600 ;
-    top:200px;
+    top:230px;
     left:200px;
-
+    user-select: none;
     pointer-events: stroke;
-    animation: animate 10.5s linear infinite;
+    animation: animate 12.5s linear infinite;
 }
 .c1p{
   
-    top:170px;
+    /* top:230px;
+    position:absolute;
+    left:162px; */
+    top:200px;
     position:absolute;
 
-    left:168px;
+    left:162px;
 }
 .c1 span{
     position: absolute;
@@ -78,6 +90,82 @@ a:hover {
     top:-100px;
     transform-origin: 0 100px;
 }
+
+.c2 {
+    position:absolute;
+    font-style: SemiBold 600 ;
+    top:120px;
+    left:910px;
+user-select: none;
+    pointer-events: stroke;
+    animation: animate 12.5s linear infinite;
+}
+.c2p{
+  
+    top:90px;
+    position:absolute;
+
+    left:868px;
+}
+.c2 span{
+    position: absolute;
+    font-style: SemiBold 600 ;
+    display: inline-block;
+    text-transform: uppercase;
+    top:-100px;
+    transform-origin: 0 100px;
+}
+
+.c3 {
+    position:absolute;
+    font-style: SemiBold 600 ;
+    top:120px;
+    left:910px;
+user-select: none;
+    pointer-events: stroke;
+    animation: animate 12.5s linear infinite;
+}
+.c3p{
+  
+    top:90px;
+    position:absolute;
+
+    left:868px;
+}
+.c3 span{
+    position: absolute;
+    font-style: SemiBold 600 ;
+    display: inline-block;
+    text-transform: uppercase;
+    top:-100px;
+    transform-origin: 0 100px;
+}
+
+.c4 {
+    position:absolute;
+    font-style: SemiBold 600 ;
+    top:120px;
+    left:910px;
+user-select: none;
+    pointer-events: stroke;
+    animation: animate 12.5s linear infinite;
+}
+.c4p{
+  
+    top:90px;
+    position:absolute;
+
+    left:868px;
+}
+.c4 span{
+    position: absolute;
+    font-style: SemiBold 600 ;
+    display: inline-block;
+    text-transform: uppercase;
+    top:-100px;
+    transform-origin: 0 100px;
+}
+
 @keyframes animate{
     0%
     {
