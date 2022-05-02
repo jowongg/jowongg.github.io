@@ -11,7 +11,7 @@ a:hover {
   text-decoration:line-through;
   text-decoration-color: #ff1212;
   color:rgb(255, 0, 0);
-  cursor: url(image/pointer.png), pointer; 
+  cursor: url(image/cpointer.png), pointer; 
         height:50%;   
 }
 a:visited{

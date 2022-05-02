@@ -5,7 +5,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 html{
-        cursor: url(image/c1.png), default;
+        cursor: url(image/icursor.png), default;
+        
         transition: transfrom 3.5s;
 }
 
@@ -17,7 +18,7 @@ a:hover {
   text-decoration:line-through;
   text-decoration-color: #ffffff;
   color:rgb(255, 255, 255);
-  cursor: url(image/pointer.png), pointer; 
+  cursor: url(image/ipointer.png), pointer; 
         height:50%;   
 }
 a:visited{
@@ -120,7 +121,7 @@ user-select: none;
     top:90px;
     position:absolute;
 
-    left:868px;
+    left:875px;
 }
 .c2 span{
     position: absolute;
@@ -170,7 +171,7 @@ user-select: none;
     top:490px;
     position:absolute;
 
-    left:268px;
+    left:276px;
 }
 .c4 span{
     position: absolute;
@@ -195,7 +196,7 @@ user-select: none;
     top:560px;
     position:absolute;
 
-    left:870px;
+    left:877px;
 }
 .c5 span{
     position: absolute;
