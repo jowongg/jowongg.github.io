@@ -73,7 +73,7 @@ a:visited{
 }
 span{
     color: rgb(255, 255, 255);
-    font-style: SemiBold 600 ;
+    font-style: bold ;
 }
 p{
     color:#ffffff;
@@ -145,7 +145,7 @@ user-select: none;
     top:390px;
     position:absolute;
 
-    left:1168px;
+    left:1175px;
 }
 .c3 span{
     position: absolute;
