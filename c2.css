@@ -5,7 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 html{
-        cursor: url(image/c1.png), default;
+        cursor: url(image/bcur.png), default;
         transition: transfrom 3.5s;
 }
 
