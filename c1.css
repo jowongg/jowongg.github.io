@@ -235,3 +235,63 @@ a:hover {
 .eAdvice:hover{
     cursor:alias;
 }
+
+
+.rtitle h3{
+    display:block;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 100px;
+    color: #000000;
+    text-align: center;
+    position: absolute;
+    
+    line-height: 210px;
+    margin:0px;
+   user-select: none;
+    position: absolute;
+    align-content: center;
+    top: 2550px;
+    left:0px;
+    
+
+}
+#revise1 {
+    position:absolute;
+
+    width: 41%;
+    height: 120%;
+    top:2630px;
+    left: 420px;
+    align-items: right;
+    border-color: #eb0c0c;
+}
+.rp{
+    /* display:none; */
+    position:absolute;
+    font-family: 'Poppins', sans-serif;
+    font-style: Regular 400;
+    color: #000000;
+    text-align: right ;
+    width:65%;
+    top: 3420px;
+    left:480px;
+
+}
+
+/* .rtitle:hover + .rp{
+    cursor: cell;
+    display: block;
+    color: red;
+} */
+#revise1:hover +.rp {
+   
+    cursor: cell;
+    
+    display: block;
+    color: red;
+}
+/* .rtitle:hover{
+    cursor: cell;
+    display: none;
+} */
