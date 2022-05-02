@@ -1,0 +1,49 @@
+.text{
+    font-family: 'Poppins', sans-serif;
+    font-style: Bold 700 ;
+    color: #eb0c0c;
+    text-align: center;
+    position: absolute;
+    /*overflow: auto;*/
+    font-size: 100px;
+    line-height: 210px;
+    margin:0px;
+    user-select: none;
+    position: absolute;
+    align-content: center;
+}
+.ititle {
+    font-family: 'Poppins', sans-serif;
+    font-style: Medium 500 italic;
+    color: #eb0c0c;
+    text-align: center;
+    position: absolute;
+    /*overflow: auto;*/
+    font-size: 100px;
+    line-height: 210px;
+    margin:0px;
+    user-select: none;
+    position: absolute;
+    align-content: center;
+    top: 800px;
+
+}
+#inspo1 {
+    position:absolute;
+    /*background-size: cover;*/
+    /*background-color: white;*/
+    width: 50%;
+    height: 100%;
+    top:730px;
+    left: 700px;
+    
+    align-items: center;
+    /* align-items:flex-end; */
+}
+.ip{
+    position:absolute;
+    font-family: 'Poppins', sans-serif;
+    font-style: Bold 700 ;
+    color: #eb0c0c;
+
+}
